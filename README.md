@@ -1,3 +1,34 @@
+# A Design System for Project Hessdalen (ADS)
+
+_This project is based on a template from Vercel_
+
+ADS is part of the [Developer Program](https://blog.hessdalen.org/developer)\
+If you want to learn and help - [Join the Developer Program](https://docs.google.com/forms/d/e/1FAIpQLSe9AVCG9uUkqTxoBsoajXkgU5FMleEudhPYWajqCu0moN96Hw/viewform?usp=sf_link)
+
+Contact the Software Team Manager:
+Fred Pallesen fred@hessdalen.org, +47 94086203
+
+When I found out that ADS in Call of Duty means:\
+Aim Down Sights (ADS), the mechanism that allows players to narrow down their field of view, improving the precision of their shots
+
+Then I was sure this was a good name.\
+And "A" could be anomalous that implies "something not conforming to what might be expected".
+
+## What I want to define in this design system?
+
+The [Design System Implementation Plan](https://docs.google.com/document/d/198CnLF4n58Ww7TozutQ37F8xtFTVlbjsiNlhQXY-YE0/edit?usp=sharing) is open for all to comment upon. Request access if you want to edit.
+
+### Layouts
+- invisible - but helping to place elements in 1, 2 or 4 columns - and centered, left, right, top, middle or bottom.
+
+### Surfaces
+- no borders, a sheet, etc. How to wrap the content.
+
+### Components
+- all the stuff that defines the look and feel: buttons, menues, lists, accordian, etc.
+
+
+
 # Turborepo Design System Starter
 
 This guide explains how to use a React design system starter powered by:
