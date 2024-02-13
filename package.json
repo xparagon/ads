@@ -1,5 +1,14 @@
 {
   "private": true,
+   "name": "ads",
+  "version": "1.0.0",
+  "description": "A Design System for Project Hessdalen",
+  "author": {
+    "name": "Fred Pallesen",
+    "email": "fred@hessdalen.com",
+    "url": "https://sites.google.com/hessdalen.org/blog/people/fred-pallesen"
+  },
+  "contributors": [],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
