@@ -19,15 +19,16 @@ And "A" could be anomalous that implies "something not conforming to what might 
 The [Design System Implementation Plan](https://docs.google.com/document/d/198CnLF4n58Ww7TozutQ37F8xtFTVlbjsiNlhQXY-YE0/edit?usp=sharing) is open for all to comment upon. Request access if you want to edit.
 
 ### Layouts
+
 - invisible - but helping to place elements in 1, 2 or 4 columns - and centered, left, right, top, middle or bottom.
 
 ### Surfaces
+
 - no borders, a sheet, etc. How to wrap the content.
 
 ### Components
+
 - all the stuff that defines the look and feel: buttons, menues, lists, accordian, etc.
-
-
 
 # Turborepo Design System Starter
 
@@ -98,7 +99,7 @@ tsup src/index.tsx --format esm,cjs --dts --external react
 
 ```json:acme-core/package.json
 {
-  "name": "@acme/core",
+  "name": "@ads/core",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -149,13 +150,13 @@ Storybook provides us with an interactive UI playground for our components. This
 
 - Use Vite to bundle stories instantly (in milliseconds)
 - Automatically find any stories inside the `stories/` folder
-- Support using module path aliases like `@acme-core` for imports
+- Support using module path aliases like `@ads-core` for imports
 - Write MDX for component documentation pages
 
 For example, here's the included Story for our `Button` component:
 
 ```js:apps/docs/stories/button.stories.mdx
-import { Button } from '@acme-core/src';
+import { Button } from '@ads-core/src';
 import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 
 <Meta title="Components/Button" component={Button} />
